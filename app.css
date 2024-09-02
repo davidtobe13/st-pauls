@@ -1,0 +1,699 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+}
+
+h1 {
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.navbar {
+    background-color: #1c9b37;
+    color: white;
+    display: flex;
+    height: 12vh;
+}
+
+.navbar-left {
+    margin-top: 5px;
+    padding-bottom: 7px;
+}
+
+.navbar-left>img {
+    height: 80px;
+    margin-bottom: -15px;
+    margin-top: -16px;
+    margin-left: -60px;
+}
+
+.navbar-links {
+    list-style: none;
+    text-align: right;
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+    justify-content: space-between;
+    margin-right: 500px;
+    margin-left: -35px;
+    margin-top: 0px;
+    width: 70%;
+    margin-top: -14px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #fff;
+    color: #1c9b37;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+.navbar-right{
+    margin-top: 7px;
+}
+
+.navbar-right > h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar-right > .timer{
+    font-size: 25px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+.banner-section {
+    align-items: center;
+    height: 90vh;
+    background-image: url(15.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* width: 100vw; */
+    /* margin: auto; */
+}
+
+.meeting-God {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffc804;
+    width: 65%;
+}
+
+.the-at-symbol {
+    font-weight: bold;
+    font-size: 90px;
+    margin-bottom: 0px;
+    color: #ff7f00;
+    width: 5%;
+}
+
+.church-name {
+    font-weight: bold;
+    font-size: 90px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    text-align: center;
+}
+
+.slogan {
+    /* font-weight: lighter; */
+    font-size: 25px;
+    color: #ffc804;
+    width: 40%;
+    padding-top: 50px;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+
+}
+
+.priests {
+    width: 100%;
+    height: 80vh;
+    /* margin: auto; */
+    margin-bottom: 100px;
+    /* background-color: red; */
+    padding-bottom: 40px;
+    background-color: #127006;
+    margin-top: -15px;
+    
+}
+
+.priest-header {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.priest-header h1 {
+    background-color: #1c9b37;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+
+}
+
+.priest-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.priest-section-left {
+    display: flex;
+}
+
+.priest-section-left>img{
+    width: 200px;
+    height: 50vh;
+    border: 5px solid #0e0000;
+
+
+}
+
+
+
+
+
+.priest-section-right>img {
+    width: 60%; 
+    height: 50vh;
+    margin: auto;
+    border: 5px solid #0e0000;
+}
+
+/* .priest-section-left>div {
+    margin-top: 320px;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 20px;
+} */
+
+
+.text>h3{
+    margin-top: 50px;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+
+.priest-section-right {
+    display: flex;
+}
+
+.priest-section-right>div {
+    margin-top: 170px;
+    color: #fff;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.priest-section-right>h3 {
+    margin-top: 100px;
+}
+
+.online-link {
+    width: 20%;
+    margin: auto;
+}
+
+.priests>.online-link>a {
+    color: #1c9b37;
+    border: 1px solid #1c9b37;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.priests>.online-link>a:hover {
+    background-color: #1c9b37;
+    color: #fff;
+}
+
+.events {
+    background-color: #1c9b37;
+    padding-bottom: 30px;
+    width: 100%;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.events>h2 {
+    background-color: #1c9b37;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.event>h3 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin-right: 130px;
+}
+
+.event-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.event-sections {
+    text-align: center;
+    text-align: center;
+    color: #fff;
+}
+
+.event-sections>h3 {
+    margin: 10px;
+    font-size: 22px;
+    /* width: 5vw; */
+}
+
+.events>hr {
+    background-color: #fff;
+    width: 50%;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.event-sections>p {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.event-date-container1 {
+    background-image: url(harvest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    padding-top: 10px;
+}
+
+.event-date-container1>.event-date {
+    background-color: #ffc804;
+    padding-top: 7px;
+    color: #1c9b37;
+    font-size: 23px;
+    border-radius: 10px;
+    width: 8vw;
+    height: 6vh;
+    margin: auto;
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 120px;
+}
+
+.event-date-container2 {
+    background-image: url(praise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    padding-top: 10px;
+    width: 220px;
+}
+
+.event-date-container2>.event-date {
+    background-color: #ffc804;
+    padding-top: 7px;
+    color: #1c9b37;
+    font-size: 23px;
+    border-radius: 10px;
+    width: 8vw;
+    height: 6vh;
+    margin: auto;
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 120px;
+}
+
+.event-date-container3 {
+    background-image: url(church-anniversary.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    padding-top: 10px;
+    width: 220px;
+}
+
+.event-date-container3>.event-date {
+    background-color: #ffc804;
+    padding-top: 7px;
+    color: #1c9b37;
+    font-size: 23px;
+    border-radius: 10px;
+    width: 8vw;
+    height: 6vh;
+    margin: auto;
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 120px;
+}
+
+.event-held {
+    margin-top: -15px;
+}
+
+.event-held>span {
+    color: #0000ff;
+}
+
+.events>.all-events-link {
+    width: 18%;
+    margin: auto;
+}
+
+.my-button {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.my-button:hover {
+    background-color: #45a049; 
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: 50vh;
+    border-radius: 8px;
+    width: 30vw;
+}
+
+.text1 h1 {
+    font-size: 20px;
+    text-align: center;
+    justify-content: left;
+
+}
+
+.text1 p {
+    font-size: 20px;
+    text-align: center;
+    justify-content: left;
+    margin-top: -10px;
+
+
+}
+
+.text1 p {
+    font-size: 20px;
+    text-align: center;
+    justify-content: left;
+
+}
+
+.text2 p {
+    font-size: 20px;
+    text-align: center;
+    justify-content: left;
+
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.box {
+    flex: 1;
+    padding: 10px;
+    margin: 0 2px;
+    border: 1px solid #1c9b37;
+    text-align: left;
+    background-color: #1c9b37;
+    width: 150px;
+    height: 300px;
+    margin-top: -18px;
+
+}
+
+.box h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.box p {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.join-button {
+    background-color: white;
+    color: none;
+    border: 2px solid #1c9b37;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -35px;
+    margin-left: 570px;
+    font-weight: bold;
+
+}
+
+.join-button:hover {
+    background-color: #1c9b37;
+    color: white;
+}
+
+
+.upcoming {
+    background-color: green;
+    width: 100%;
+    height: 85vh;
+
+
+}
+
+
+.upcoming h1 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+/* .upcoming::after {
+    content: ""; 
+    display: block; 
+    width: 800px; 
+    height: 3px; 
+    background-color: white; 
+    margin: 10px auto; 
+} */
+
+
+
+.event {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+}
+
+
+.events img {
+    max-width: 100%;
+    height: 50vh;
+    border-radius: 8px;
+    width: 30vw;
+
+}
+
+.text1 h1 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.text1 p {
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.button {
+    margin-top: 430px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 70px
+}
+
+.weekly1{
+    width: 100%;
+    height: 80vh;
+}
+
+.weekly1 img{
+    width: 100%;
+    height: 80vh;
+}
+
+.glad img{
+    width:100%;
+    height: 80vh;
+}
+
+.contents{
+    width: 100%;
+    height: 90vh;
+    gap: 20px;
+    display: flex;
+    }
+
+.contentleft{
+    width: 50%;
+    height: 90vh;
+    background-color: #1c9b37;
+    }
+
+.contentright{
+    width: 50%;
+    height: 90vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+
+form {
+    font-size: 30px; /* Adjust the font size for the entire form */
+}
+
+label {
+    font-size: 30px; /* Adjust the font size for labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+input[type="submit"] {
+    width: 300px; /* Width of input fields and textarea */
+    height: 40px; /* Height of input fields */
+    font-size: 18px; /* Font size of text in input fields */
+}
+
+textarea {
+    height: 100px; /* Height of textarea */
+}
+
+.radio-container {
+    display: flex;
+    align-items: start;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Hide the default radio buttons */
+.radio-container input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+/* Create the custom radio button */
+.radio-checkmark {
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #f1f1f1;
+    border-radius: 50%; /* Makes the radio button circular */
+    border: 2px solid #ccc;
+    margin-right: -10px;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+/* Style the radio button when selected */
+.radio-container input:checked + .radio-checkmark {
+    background-color: #4caf50;
+    border: 2px solid #4caf50;
+}
+
+/* Create the inner circle (dot) for selected radio button */
+.radio-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the inner circle when the radio button is selected */
+.radio-container input:checked + .radio-checkmark:after {
+    display: block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background: white;
+    top: 6px;
+    left: 6px;
+}
+
+/* Styling for labels */
+.radio-label {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+input[type="submit"] {
+    width: 150px; /* Width of submit button */
+    height: 40px; /* Height of submit button */
+}
+
+.contentright img{
+    width: 100%;
+    height: 90vh;
+}

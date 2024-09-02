@@ -1,0 +1,245 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+}
+
+h1 {
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.priests {
+    width: 100%;
+    /* margin: auto; */
+    margin-bottom: 100px;
+    /* background-color: red; */
+    padding-bottom: 40px;
+}
+
+.priest-header {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.priest-header>h1 {
+    background-color: #1c9b37;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.priest-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.priest-section-left {
+    display: flex;
+}
+
+.priest-section-left>div {
+    margin-top: 50px;
+    color: #1c9b37;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.priest-section-right {
+    display: flex;
+}
+
+.priest-section-right>div {
+    margin-top: 60px;
+    color: #1c9b37;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.priest-section-right>h3 {
+    margin-top: 100px;
+}
+
+.online-link {
+    width: 20%;
+    margin: auto;
+}
+
+.priests>.online-link>a {
+    color: #1c9b37;
+    border: 1px solid #1c9b37;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.priests>.online-link>a:hover {
+    background-color: #1c9b37;
+    color: #fff;
+}
+
+.events {
+    background-color: #1c9b37;
+    padding-bottom: 30px;
+    width: 100%;
+    margin: auto;
+}
+
+.events>h2 {
+    background-color: #1c9b37;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.event>h3 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin-right: 130px;
+}
+
+.event-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.event-sections {
+    text-align: center;
+    text-align: center;
+    color: #fff;
+}
+
+.event-sections>h3 {
+    margin: 10px;
+    font-size: 22px;
+    /* width: 5vw; */
+}
+
+.events>hr {
+    background-color: #fff;
+    width: 50%;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.event-sections>p {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.event-date-container1 {
+    background-image: url(ruth.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    padding-top: 10px;
+}
+
+.event-date-container1>.event-date {
+    background-color: #ffc804;
+    padding-top: 7px;
+    color: #1c9b37;
+    font-size: 23px;
+    border-radius: 10px;
+    width: 8vw;
+    height: 6vh;
+    margin: auto;
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 120px;
+}
+
+.event-date-container2 {
+    background-image: url(paul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    padding-top: 10px;
+    width: 220px;
+}
+
+.event-date-container2>.event-date {
+    background-color: #ffc804;
+    padding-top: 7px;
+    color: #1c9b37;
+    font-size: 23px;
+    border-radius: 10px;
+    width: 8vw;
+    height: 6vh;
+    margin: auto;
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 120px;
+}
+
+.event-date-container3 {
+    background-image: url(mercy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    padding-top: 10px;
+    width: 220px;
+}
+
+.event-date-container3>.event-date {
+    background-color: #ffc804;
+    padding-top: 7px;
+    color: #1c9b37;
+    font-size: 23px;
+    border-radius: 10px;
+    width: 8vw;
+    height: 6vh;
+    margin: auto;
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 120px;
+}
+
+.event-held {
+    margin-top: -15px;
+}
+
+.event-held>span {
+    color: #0000ff;
+}
+
+.events>.all-events-link {
+    width: 18%;
+    margin: auto;
+}
+
+.all-events-link>a {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 10px;
+    width: 20%;
+    margin: auto;
+}
+
+.all-events-link>a:hover {
+    background-color: #fff;
+    color: #1c9b37;
+}

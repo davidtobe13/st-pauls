@@ -1,0 +1,274 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    background-color: #0000ff;
+}  
+
+ img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.text{
+    text-align: right;
+    margin-top: -60px;
+    margin-bottom: 20px;
+    
+}
+header{
+    background-color: lightgreen;
+    color: white;
+    font-size: 30px;
+    margin-top: 0px;
+    padding-left: 10px;
+}
+.navbar{
+list-style: none;
+text-align: right;
+display: flex;
+justify-content: left;
+font-size: 30px;
+justify-content: space-between;
+margin-right: 500px;
+margin-left: -35px;
+margin-top: 0px;
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    background-color: #ffc804;
+    
+}
+
+
+.Home-content{
+    align-items: center;
+    font-size: 2rcm;
+    margin-top: -28px;
+    
+}
+
+
+.word-part{
+    text-align: center;
+
+}
+
+.hero-up{
+    font-size: 100px;
+    font-weight: bold;  
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffc804;
+
+}
+.hero-top{
+    font-weight: bold;
+    font-size: 90px;
+    margin-bottom: 0px ;
+    color: #ff7f00;
+
+}
+
+.hero-middle{
+    font-weight: bold;
+    font-size: 90px;
+    margin-bottom: 0px ;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-down{
+    font-weight: lighter;
+    font-size: 25px;
+    color: #ffc804;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+} */
+
+.priests>h1 {
+    background-color: #1c9b37;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 20vw;
+    margin-left: 500px;
+}
+
+.priests>button {
+    background-color: #1c9b37;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 550px;
+}
+
+.priests>button>a {
+    color: #ffffff;
+}
+
+.priests-section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 50vw;
+    margin-left: 130px;
+}
+
+.priests-section-left {
+    display: flex;
+}
+
+.priests-section-left>div {
+    margin-top: 100px;
+    color: #1c9b37;
+    margin-left: 10px;
+}
+
+.priests-section-right {
+    display: flex;
+}
+
+.priests-section-right>div {
+    margin-top: 60px;
+    color: #1c9b37;
+    text-align: right;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.priests-section-right>h3{
+    margin-top: 100px;
+}
+
+.priests>a{
+    color: #1c9b37;
+    border: 1px solid #1c9b37;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 550px;
+    background-color: #fff;
+    margin-bottom: -50px;
+
+}
+
+.priest>a:hover{
+    background-color: #1c9b37;
+    color: #fff;
+    
+}
+
+.events {
+    background-color: #1c9b37;
+    margin-top: -20px;
+    
+}
+
+.events> h2{
+    background-color: #1c9b37;
+    color: #1c9b37;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    max-width: 30vw;
+    margin-left: 400px;
+    font-size: 30px;
+
+}
+
+.event>h3{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin-right: 130px;
+
+}
+
+.event-section{
+    display:flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin-left: 130px;
+    margin-right: 100px;
+    width: 100%;
+}
+
+.event-sections{
+    width: 200px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.event-date-container{
+    background-image: url(11.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 40vh;
+    padding-top: 90px;
+    margin-bottom: -90px;
+    position: relative;
+
+}
+.event-date-container>.event-date{
+    background-color:#ffc804;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    color: #1c9b37;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    right: 440px;
+
+}
+
+.event-held{
+    margin-top: -15px;
+    
+}
+
+.event-held>span{
+    color: #0000ff;
+
+}
+
+.events>hr{
+    background-color: #fff;
+    width: 600px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+
+.events > a{
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 40px 0px 30px 550px;
+}
+
+.events>a:hover{
+    background-color: #fff;
+    color: #1c9b37;
+}
